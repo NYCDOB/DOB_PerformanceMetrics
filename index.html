@@ -31,72 +31,94 @@
     </div>
   </div>
 
-  <div class="container-fluid">
-    <div class="row">
-
-      <div class="col-sm-6">
-        <div class="chart-wrapper">
-<!--           <div class="chart-title">
-            Time to First Review
-          </div> -->
-          <div class="chart-stage">
-            <iframe width="100%" height="380px" frameborder="0" scrolling="no" src="https://public.tableau.com/views/SL_Monthly_Update_1st_Reviews/Timeto1stReview?:embed=true:showVizHome=no.html"></iframe>
-          </div>
-          <div class="chart-notes">
-            Average business days from filing date to first status of incomplete, objection, or approval (NB/A1 service level target: 10 days, A2/A3 service level target: 2 days).
-          </div>
-        </div>
+<div class="container grid grid-two-and-one">
+<!--     <div class="chart-wrapper">
+      <div class="chart-title">
+        Pageviews by browser (past 24 hours)
       </div>
-
-      <div class="col-sm-6">
-        <div class="chart-wrapper">
-<!--           <div class="chart-title">
-            Development Wait Time
-          </div> -->
-          <div class="chart-stage">
-            <iframe width="100%" height="380px" frameborder="0" scrolling="no" src="https://public.tableau.com/views/SL_Monthly_Update_Dev_Wait_Times/DevelopmentWaitTime?:embed=true:showVizHome=no.html"></iframe>
-          </div>
-          <div class="chart-notes">
-            Average business days from the current request date of a development inspection to the date of inspection (service level target: 3 days).
-          </div>
-        </div>
+      <div class="chart-stage">
+        <img data-src="holder.js/100px350?theme=white">
       </div>
-
+      <div class="chart-notes">
+        This is a sample text region to describe this chart.
+      </div>
     </div>
-	
-    <div class="row">
-
-      <div class="col-sm-6">
-        <div class="chart-wrapper">
-<!--           <div class="chart-title">
-            Complaint Response Time
-          </div> -->
-          <div class="chart-stage">
-            <iframe width="100%" height="380px" frameborder="0" scrolling="no" src="https://public.tableau.com/views/SL_Monthly_ComplaintResponse/ComplaintResponseTime?:embed=true:showVizHome=no.html"></iframe>
-          </div>
-          <div class="chart-notes">
-            Average business days from receipt of a complaint to a conducted field visit (Priority A service level target: 1 day, Priority B service level target: 30 days).
-          </div>
+    <div class="chart-wrapper">
+      <div class="chart-title">
+        Pageviews by browser (past 5 days)
+      </div>
+      <div class="chart-stage">
+        <img data-src="holder.js/100px350?theme=white">
+      </div>
+      <div class="chart-notes">
+        Notes go down here
+      </div>
+    </div> -->
+    <div class="two">
+      <div class="chart-wrapper">
+        <div class="chart-title">
+          Time to 1st Plan Review
+        </div>		
+        <div class="chart-stage">
+          <iframe width="100%" height="380px" frameborder="0" scrolling="no" src="https://public.tableau.com/views/SL_Monthly_Update_1st_Reviews/ServiceLevel?:embed=true:showVizHome=no.html"></iframe>
+        </div>
+        <div class="chart-notes">
+          Average business days from filing date to first status of incomplete, objection, or approval (NB/A1 service level target: 10 days, A2/A3 service level target: 2 days).
         </div>
       </div>
-
-      <div class="col-sm-6">
-        <div class="chart-wrapper">
-<!--           <div class="chart-title">
-            Qmatic Service Levels
-          </div> -->
-          <div class="chart-stage">
-            <iframe width="100%" height="380px" frameborder="0" scrolling="no" src="https://public.tableau.com/views/SL_Monthly_Update_QMATIC/QMATICServiceLevels?:embed=true:showVizHome=no.html"></iframe>
-          </div>
-          <div class="chart-notes">
-            QMATIC Waiting Time: Average minutes from a customer service ticket being pulled to that ticket number being served. QMATIC Processing Time: Average minutes from a customer service ticket being served to the close of the transaction.
-          </div>
-        </div>
-      </div>
-
     </div>
-
+	<div class="two">
+      <div class="chart-wrapper">
+        <div class="chart-title">
+          Development Inspection Wait Time
+        </div>
+        <div class="chart-stage">
+          <iframe width="100%" height="380px" frameborder="0" scrolling="no" src="https://public.tableau.com/views/SL_Monthly_Update_Dev_Wait_Times/ServiceLevel?:embed=true:showVizHome=no.html"></iframe>
+        </div>
+        <div class="chart-notes">
+          Notes go down here
+        </div>
+      </div>
+    </div>
+	<div class="two">
+      <div class="chart-wrapper">
+        <div class="chart-title">
+          Complaint Response Time
+        </div>
+        <div class="chart-stage">
+          <iframe width="100%" height="380px" frameborder="0" scrolling="no" src="https://public.tableau.com/views/SL_Monthly_ComplaintResponse/ServiceLevel?:embed=true:showVizHome=no.html"></iframe>
+        </div>
+        <div class="chart-notes">
+          Notes go down here
+        </div>
+      </div>
+    </div>
+	<div class="two">	
+      <div class="chart-wrapper">
+        <div class="chart-title">
+          Time to Re-Inspect Stop Work Orders
+        </div>
+        <div class="chart-stage">
+          <iframe width="100%" height="380px" frameborder="0" scrolling="no" src="https://public.tableau.com/views/SL_Monthly_Lift_SWO/ServiceLevel?:embed=true:showVizHome=no.html"></iframe>
+        </div>
+        <div class="chart-notes">
+          Average business days from stop work order lift request to re-inspection.
+      </div>
+    </div>
   </div>
+	<div class="two">
+      <div class="chart-wrapper">
+        <div class="chart-title">
+          Front Office Customer Wait Time
+        </div>
+        <div class="chart-stage">
+          <iframe width="100%" height="380px" frameborder="0" scrolling="no" src="https://public.tableau.com/views/SL_Monthly_Update_QMATIC/ServiceLevel?:embed=true:showVizHome=no.html"></iframe>
+        </div>
+        <div class="chart-notes">
+          QMATIC Waiting Time: Average minutes from a customer service ticket being pulled to that ticket number being served. QMATIC Processing Time: Average minutes from a customer service ticket being served to the close of the transaction.
+        </div>
+      </div>
+    </div>
 
   <script type="text/javascript" src="assets/lib/jquery/dist/jquery.min.js"></script>
   <script type="text/javascript" src="assets/lib/bootstrap/dist/js/bootstrap.min.js"></script>
