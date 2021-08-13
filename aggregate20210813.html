@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DOB Service Levels</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' />
+    <link rel="stylesheet" type="text/css"
+        href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://nycdob.github.io/DOB_PerformanceMetrics/assets/css/keen-dashboards.css" />
+
+</head>
+<style>
+    .navbar.navbar-inverse .navbar-header .navbar-brand {
+        display: block;
+        text-align: center;
+        float: none;
+        vertical-align: top;
+    }
+
+    .navbar.navbar-inverse .navbar-header {
+        float: none;
+    }
+</style>
+
+<body class="application">
+
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation" style>
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <div style="">
+                    <h2 style="color:white; margin:10px 0px 10px;">DOB Service Levels<span
+                            style="font-size:.50em;padding-top:10px;margin-right:3px;" class="navbar-right ">Quarterly
+                            Running Average</span></h2>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-------------------------------------------------------------------------->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="chart-wrapper">
+                    <div class="chart-title" style="background-color:#4281A4;color:white;font-weight:bolder">
+                        DOB Review Time for Initial Submission of Plans
+                    </div>
+                    <div class="chart-stage">
+                        <iframe width="100%" height="380px" frameborder="0" scrolling="no"
+                            src="https://public.tableau.com/views/first_reviews_V2/Citywide?:embed=true:showVizHome=no.html"></iframe>
+                    </div>
+                    <div class="chart-notes">
+                        Average business days from filing date to first status of incomplete, objection, or approval
+                        (New Building and Major Alteration service level target: 10 days, Minor Alteration service level target: 2 days).
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-sm-6">
+                <div class="chart-wrapper">
+                    <div class="chart-title" style="background-color:#4281A4;color:white;font-weight:bolder">
+                        Total Review Time and Resubmissions
+                    </div>
+                    <div class="chart-stage">
+                        <iframe width="100%" height="380px" frameborder="0" scrolling="no"
+                            src="https://public.tableau.com/views/resubmissions_V2/Citywide?:embed=true:showVizHome=no.html"></iframe>
+                    </div>
+                    <div class="chart-notes">
+						For approved applications this table shows the average number of days an application is with the DOB, the average number of days the DOB is awaiting a response from the applicant, and the average number of resubmissions.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-------------------------------------------------------------------------->
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="chart-wrapper">
+                    <div class="chart-title" style="background-color:#48A9A6;color:white;font-weight:bolder">
+                        Certificates of Correction
+                    </div>
+                    <div class="chart-stage">
+                        <iframe width="100%" height="380px" frameborder="0" scrolling="no"
+                            src="https://public.tableau.com/views/COC_V2/Citywide?:embed=true:showVizHome=no.html"></iframe>
+                    </div>
+                    <div class="chart-notes">
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="chart-wrapper">
+                    <div class="chart-title" style="background-color:#C1666B;color:white;font-weight:bolder">
+                        Customer Service
+                    </div>
+                    <div class="chart-stage">
+                        <iframe width="100%" height="380px" frameborder="0" scrolling="no"
+                            src="https://public.tableau.com/views/customer_service_V2/Citywide?:embed=true:showVizHome=no.html"></iframe>
+                    </div>
+                    <div class="chart-notes">
+                        Average wait time for calls received by offices that are part of DOB’s Interactive Voice
+                        Response system. Average response time for help form inquiries submitted at <a
+                            href="https://a810-efiling.nyc.gov/eRenewal/dobNowHelp.jsp">www.nyc.gov/dobhelp</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="chart-wrapper">
+                    <div class="chart-title" style="background-color:#CB8D77;color:white;font-weight:bolder">
+                        Construction Safety Enforcement
+                    </div>
+                    <div class="chart-stage">
+                        <iframe width="100%" height="380px" frameborder="0" scrolling="no"
+                            src="https://public.tableau.com/views/CSE_V2/Citywide?:embed=true:showVizHome=no.html"></iframe>
+                    </div>
+                    <div class="chart-notes">
+                        Average business days from when a licensed professional requests a re-inspection from the
+                        Construction Safety Enforcement unit to rescind a Stop Work Order to when that inspection
+                        occurs. Average business days from filing date of demolition and site safety plans to first
+                        status of incomplete, objection, or approval.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!------------------------------------------------------------------->
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="chart-wrapper">
+                    <div class="chart-title" style="background-color:#48A9A6;color:white;font-weight:bolder">
+                        Development Inspection Wait Time
+                    </div>
+                    <div class="chart-stage">
+                        <iframe width="100%" height="380px" frameborder="0" scrolling="no"
+                            src="https://public.tableau.com/views/dev_inspections_V2/Manhattan?:embed=true:showVizHome=no.html"></iframe>
+                    </div>
+                    <div class="chart-notes">
+                        Average number of business days from when licensed professionals (such as contractors) request a
+                        DOB inspection to approve their work to when that inspection occurs.
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="chart-wrapper">
+                    <div class="chart-title" style="background-color:#D4B483;color:white;font-weight:bolder">
+                        Appointments to Approval
+                    </div>
+                    <div class="chart-stage">
+                        <iframe width="100%" height="380px" frameborder="0" scrolling="no"
+                            src="https://public.tableau.com/views/appointments_V2/Citywide?:embed=true:showVizHome=no.html"></iframe>
+                    </div>
+                    <div class="chart-notes">
+                        Average number of appointments with a design professional representing the owner to receive an approval.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!------------------------------------------------------------------->
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="chart-wrapper">
+                    <div class="chart-title" style="background-color:#4281A4;color:white;font-weight:bolder">
+                        Application Reconsiderations
+                    </div>
+                    <div class="chart-stage">
+                        <iframe width="100%" height="400px" frameborder="0" scrolling="no" src="https://public.tableau.com/views/reconsiderations_V2/Citywide?:embed=true:showVizHome=no.html"></iframe>
+                    </div>
+                    <div class="chart-notes">
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="chart-wrapper">
+                    <div class="chart-title" style="background-color:#D4B483;color:white;font-weight:bolder">
+                        Licensing Renewals
+                    </div>
+                    <div class="chart-stage">
+                        <iframe width="100%" height="400px" frameborder="0" scrolling="no" src="https://gcc02.safelinks.protection.outlook.com/?url=https%3A%2F%2Fpublic.tableau.com%2Fviews%2FLicensing_Renewals%2FCitywide%3F%3Aembed%3Dtrue%3AshowVizHome%3Dno.html&data=04%7C01%7Ccatsimon%40buildings.nyc.gov%7C9bcd19e0a0214cd30e1c08d95e7d37b0%7C32f56fc75f814e22a95b15da66513bef%7C0%7C0%7C637644714151680651%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&sdata=fwyoF5g%2FxgIBX4ZOnRbZA1v6JdFxr%2FHvJVJ0rPveo4k%3D&reserved=0"></iframe>
+                    </div>
+                    <div class="chart-notes">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <script type="text/javascript"
+        src="https://nycdob.github.io/DOB_PerformanceMetrics/assets/lib/holderjs/holder.js"></script>
+    <script>
+        Holder.add_theme("white", { background: "#fff", foreground: "#a7a7a7", size: 10 });
+    </script>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/keen-js/3.2.1/keen.min.js"></script>
+    <script type="text/javascript" src="https://nycdob.github.io/DOB_PerformanceMetrics/assets/js/meta.js"></script>
+
+</body>
+
+</html>
